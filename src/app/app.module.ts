@@ -10,6 +10,7 @@ import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { EmployeeService } from './service/employee.service';
 import { FormsModule } from '@angular/forms';
+import { HomeComponent } from './home/home.component';
 
 
 
@@ -20,6 +21,7 @@ import { FormsModule } from '@angular/forms';
     EmployeeListComponent,
     EmployeeComponent,
     ErrorComponent,
+    HomeComponent,
     
   ],
   imports: [
